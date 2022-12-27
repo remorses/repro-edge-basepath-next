@@ -129,13 +129,3 @@ export default function Home() {
   )
 }
 
-
-export const getServerSideProps = async (
-  context: GetServerSidePropsContext,
-) => {
-  return {
-      props: {
-          hello: 'world',
-      },
-  }
-}
